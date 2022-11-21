@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box; /* permite incluir o preenchimento e a borda na largura e altura total de um elemento */
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    width:100%;
+    height:200px;
+    background:#ccc;
+    position:relative;
+}
+
+nav {
+    width: 100%;
+    height:100px;
+    background:#999;
+    position:absolute; /*Poder de colocar em qualquer lugar da tela*/
+    bottom:0; /*Margem de baixo*/
+}
+
+section {
+    width:100%;
+    height:500px;
+    background:#b2bec3;
+}
+
+footer {
+    width:100%;
+    height:200px;
+    background: #27AE60;
+}
