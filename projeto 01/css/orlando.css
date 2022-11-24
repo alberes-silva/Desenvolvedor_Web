@@ -109,7 +109,7 @@ header #logotipo {
 }
 
 #menu {
-    margin: 26px 0;
+    margin: 12px 0;
 }
 
 #menu li {
@@ -133,9 +133,22 @@ header #logotipo {
     color:#FFF
 }
 
+#menu li.search button {
+    background: none;
+    border: none;
+    position:absolute;
+    right: -28px;
+    top: -3px;
+}
+
+#menu li.search button li {
+    color:rgba(255,255,255,.5);
+}
+
 #menu li a {
     color:#FFF;
     font-size:16px;
     padding: 10px 25px;
     font-weight:bold;
 }
+
