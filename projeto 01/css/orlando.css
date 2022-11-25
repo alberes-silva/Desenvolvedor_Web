@@ -4,6 +4,11 @@
     font-size: 1em;
 }
 
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf");
+    font-size: 1em;
+}
 
 
 
@@ -11,7 +16,9 @@
 header {
 	width: 100%;
 	height: 150px;
-	background-color: #5E299A;
+	background-color: rgba(94,41,154,.8);
+	z-index:2;
+	position:relative;
 }
 header .container {
 	position: relative;
@@ -152,3 +159,30 @@ header #logotipo {
     font-weight:bold;
 }
 
+#banner{
+	width: 100%;
+	height:728px;
+	position:relative;
+	background:URL("../img/banner.jpg") no-repeat;
+	background-position: 0px -100px;
+	top:-110px;
+	
+}
+
+#banner h1 {
+	color:#FFF;
+	top:300px;
+	position:relative;
+	font-size:92px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.45);
+	font-family: 'OpenSans-Light';
+	margin-left:50px;
+}
+
+#banner h1 small {
+	font-size:32px;
+	display:block;
+	color:#FFF;
+	font-family: 'OpenSans';
+	font-weight:bold;
+}
